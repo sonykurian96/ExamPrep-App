@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/page1.dart';
-import 'package:flutter_app/pages/page2.dart';
+import 'package:flutter_app/pages/home.dart';
+import 'package:flutter_app/pages/category.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:flutter_app/pages/page3.dart';
-import 'package:flutter_app/pages/page4.dart';
+import 'package:flutter_app/pages/note.dart';
+import 'package:flutter_app/pages/library.dart';
 
 void main() => runApp(MaterialApp(
   home: MainPage(),
@@ -21,19 +21,19 @@ class _MainPageState extends State<MainPage> {
   List pages = [
     MyRoute(
       iconData: Icons.home,
-      page: Page1(),
+      page: Home(),
     ),
     MyRoute(
       iconData: Icons.category,
-      page: Page2(),
+      page: Category(),
     ),
     MyRoute(
       iconData: Icons.library_books,
-      page: Page3(),
+      page: Note(),
     ),
     MyRoute(
       iconData: Icons.video_library,
-      page: Page4(),
+      page: Library(),
     ),
   ];
   @override
