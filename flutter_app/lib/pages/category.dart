@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Page2 extends StatelessWidget {
+class Category extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('Page2'),);
+    return Center(child: Text('Category'),);
   }
 }
