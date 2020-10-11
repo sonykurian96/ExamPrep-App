@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-class Page3 extends StatelessWidget {
+class Note extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('Page3'));
+    return Center(child: Text('Note'));
   }
 }
