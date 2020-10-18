@@ -1,4 +1,4 @@
-# ExamPrep_app
+# ExamPrep App
 
 A new Flutter application.
 
