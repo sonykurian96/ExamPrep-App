@@ -1,6 +1,6 @@
 # ExamPrep App
 
-A new Flutter application.
+The app is still under development.
 
 ## Getting Started
 
