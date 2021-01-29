@@ -8,13 +8,15 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.white,
           body: Column(
             children: [
-              SizedBox(height: 70,),
-              Image.asset("assets/under_construction(image).jpg"),
-              SizedBox(height: 20,),
-              Text("Under Construction",
-                style: TextStyle(
-                  fontSize: 20,
-                ),)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 2, 0, 0),
+                child: Text("Last Moment Prep",
+                  style: TextStyle(
+                    fontSize: 30,
+                  ),
+                ),
+              ),
+              Divider(thickness: 1),
             ],
           )
         )
