@@ -1,19 +1,19 @@
 import 'package:backdrop/backdrop.dart';
 import 'package:flutter/material.dart';
-
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter_app/Navigation Drawer/backlayer.dart';
 
-import 'package:flutter_app/Code Runner/codeEditor.dart';
-import 'package:flutter_app/Library Section/library.dart';
-import 'package:flutter_app/Home Section/home.dart';
-import 'package:flutter_app/Notes Section/note.dart';
+import 'Code Runner/codeEditor.dart';
+import 'Home Section/home.dart';
+import 'Library Section/library.dart';
+import 'Notes Section/note.dart';
 
 
 void main() => runApp(MaterialApp(
   home: MainPage(),
   debugShowCheckedModeBanner: false,
 ));
+
 
 class MyRoute {
   final IconData iconData;
@@ -52,6 +52,15 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return BackdropScaffold(
       appBar: BackdropAppBar(
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [Colors.orange[800],Colors.amber]
+            )
+          ),
+        ),
         backgroundColor: Colors.orange[500],
         title: Text('ExamPrep'),
         centerTitle: true,
