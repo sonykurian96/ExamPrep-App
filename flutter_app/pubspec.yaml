@@ -31,8 +31,10 @@ dependencies:
   curved_navigation_bar: ^0.3.4
   youtube_player_flutter: ^6.1.0+4
   backdrop: ^0.4.7
-  webview_flutter:
   flutter_speed_dial: ^1.2.5
+  expansion_card: ^0.1.0
+  expansion_tile_card: ^1.1.0
+  clickable_list_wheel_view: ^0.0.3
 
 dev_dependencies:
   flutter_test:
