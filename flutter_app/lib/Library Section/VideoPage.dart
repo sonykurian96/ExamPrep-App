@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import 'library.dart';
 
@@ -115,6 +115,15 @@ class _VideoPageState extends State<VideoPage> {
               },
             ),
           ),
+          AlertDialog(
+            title: Text("isko jaldi hi thik kiya jayega"),
+            actions: [
+              RaisedButton(onPressed: () {
+              }, child: Text('Chalega, apne time le')),
+              RaisedButton(onPressed: () {
+              }, child: Text('yaar jaldi khatam kar')),
+            ],
+          )
         ]),
       ),
     );
