@@ -1,6 +1,5 @@
-# ExamPrep App
+# test App
 
-The app is still under development.
 
 ## Getting Started
 
